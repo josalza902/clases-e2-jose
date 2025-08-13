@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Agenda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Agenda del Día</h1>
+
+    <div id="filtro-fecha">
+        <input type="date" id="fechaSeleccionada">
+        <button id="filtrarFecha">Filtrar</button>
+    </div>
+
+    <div id="listaActividades"></div>
+
+    <h2>Agregar Nueva Actividad</h2>
+    <input type="text" id="titulo" placeholder="Título">
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <input type="text" id="ubicacion" placeholder="Ubicación">
+    <input type="time" id="horaInicio">
+    <input type="time" id="horaFin">
+    <button id="agregarActividad">Agregar</button>
+
+    <script src="js/db.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

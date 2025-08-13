@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    gap:2%
+}
+header img{
+    display: flex;
+    align-items: start;
+    size: 20px;
+}
+header a{
+    margin: 2%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+}

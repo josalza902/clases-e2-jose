@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    gap:2%
+}
+header img{
+    display: flex;
+    align-items: start;
+    size: 20px;
+}
+header a{
+    margin: 2%;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    gap :20%;
+}
+.ladod{
+    text-align: center;
+    margin-left: 15%;
+}

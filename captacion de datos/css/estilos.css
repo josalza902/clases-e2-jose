@@ -1,0 +1,25 @@
+#contactos {
+    color: aqua;
+    width: 500px;            /* Ancho del cuadro principal */
+    height: auto;            /* Altura dinámica */
+    margin: 20px auto;       /* Centrado en la página */
+    padding: 20px;
+    text-align: center;
+    border: solid black 10px;
+    display: flex;
+    flex-wrap: wrap;         /* Para acomodar los cuadros de forma flexible */
+    justify-content: center; /* Centra los cuadros dentro del cuadro principal */
+}
+
+
+.cuadro_interno {
+    color: red;
+    width: auto;
+    height: 100px;
+    border: solid green 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;        /* Espacio entre el cuadro principal y el cuadro interno */
+}

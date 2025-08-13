@@ -1,0 +1,10 @@
+#cuadro{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+.hijos{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    gap:2%
+}
+header a{
+    margin: 2%;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30%;
+}
+.ladou{
+    justify-content: center;
+    align-items: start;
+    margin: 50px;
+}
+
+.imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "imperial script";
+    font-weight: 400%;
+    font-style: normal;
+}
+.ladot{
+    position:relative;
+    height: 500px;
+    width: 800px;
+    
+}
+
+
+.ladot img{
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+}
+
+  

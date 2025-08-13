@@ -1,0 +1,20 @@
+{
+  "name": "clase2",
+  "version": "1.0.0",
+  "description": "lo que sea",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon clase2 --quiet"
+  },
+  "author": "jose",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
