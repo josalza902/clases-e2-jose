@@ -1,0 +1,13 @@
+
+.init{
+  width: 700px;
+  height: auto;
+  background-color: white;
+  border-radius: 10%;
+}
+td div{
+  width: 800px;
+  height: auto;
+  border: 10px solid gray;
+
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Indicadores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .titulo {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subtitulo {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos del GRID */
+        .tabla {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            align-items: center;
+            padding: 10px;
+            font-weight: bold;
+            background: #f5f5f5;
+            border-radius: 10px;
+        }
+
+        .fila {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+
+        .cumplimiento {
+            font-weight: bold;
+            border: 2px solid;
+            border-radius: 50%;
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .rojo { color: red; border-color: red; }
+        .verde { color: green; border-color: green; }
+        .naranja { color: orange; border-color: orange; }
+
+        .boton {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .boton:hover {
+            background-color: #e65c00;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="titulo">Panel de Indicadores</div>
+        <div class="subtitulo">Aquí puedes visualizar los indicadores propuestos y añadidos por tu equipo de trabajo.</div>
+
+        <!-- Encabezado -->
+        <div class="tabla">
+            <div>Indicador</div>
+            <div>Descripción</div>
+            <div>Categoría</div>
+            <div>Fecha Inicio</div>
+            <div>Fecha Term.</div>
+            <div>Fórmula</div>
+            <div>Frecuencia</div>
+            <div>Cumplimiento</div>
+            <div>Área</div>
+        </div>
+
+        <!-- Fila de datos -->
+        <div class="fila">
+            <div>Modelado 3D</div>
+            <div>Interés por diseño...</div>
+            <div>Baja</div>
+            <div>12/05/21</div>
+            <div>12/12/21</div>
+            <div>Met. Ágil</div>
+            <div>1/4</div>
+            <div class="cumplimiento rojo">31%</div>
+            <div>Marketing</div>
+        </div>
+
+        <div class="fila">
+            <div>Finca Galeón</div>
+            <div>Diseño de maqueta...</div>
+            <div>Baja</div>
+            <div>12/04/21</div>
+            <div>12/05/21</div>
+            <div>Met. Ágil</div>
+            <div>1/4</div>
+            <div class="cumplimiento rojo">25%</div>
+            <div>Diseño</div>
+        </div>
+
+        <div class="fila">
+            <div>Colegios Privados</div>
+            <div>Se busca llegar a los...</div>
+            <div>Media</div>
+            <div>24/04/21</div>
+            <div>12/11/21</div>
+            <div>Met. Fibo</div>
+            <div>1/3</div>
+            <div class="cumplimiento verde">80%</div>
+            <div>Developers</div>
+        </div>
+
+        <div class="fila">
+            <div>Electrodomésticos</div>
+            <div>Ventas en electro...</div>
+            <div>Media</div>
+            <div>12/04/21</div>
+            <div>12/09/21</div>
+            <div>N/A</div>
+            <div>1/3</div>
+            <div class="cumplimiento rojo">32%</div>
+            <div>Gerencia</div>
+        </div>
+
+        <div class="fila">
+            <div>Estrato 2 - Floridablanca</div>
+            <div>Impacto en los sectores...</div>
+            <div>Alta</div>
+            <div>12/04/21</div>
+            <div>12/09/21</div>
+            <div>Met. Expo</div>
+            <div>1/4</div>
+            <div class="cumplimiento verde">95%</div>
+            <div>Marketing</div>
+        </div>
+
+        <div class="fila">
+            <div>Jóvenes en Acción</div>
+            <div>Impacto en los sectores...</div>
+            <div>Alta</div>
+            <div>15/02/21</div>
+            <div>09/11/21</div>
+            <div>Met. Expo</div>
+            <div>1/2</div>
+            <div class="cumplimiento naranja">75%</div>
+            <div>Producción</div>
+        </div>
+
+        <!-- Botón para añadir elementos -->
+        <button class="boton">Añadir Elementos</button>
+
+    </div>
+
+</body>
+</html>
